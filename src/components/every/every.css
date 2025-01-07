@@ -1,0 +1,15 @@
+.button {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  background: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

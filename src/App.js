@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/sidebar/Sidebar";
 import Filter from "./components/filter/Filter";
 import Slice from "./components/slice/Slice";
+import Every from "./components/every/Every";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/filter" element={<Filter />} />
         <Route path="/slice" element={<Slice />} />
+        <Route path="/every" element={<Every />} />
       </Routes>
     </div>
   );

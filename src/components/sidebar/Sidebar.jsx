@@ -9,6 +9,10 @@ const sidebarData = [
     name: "Slice",
     path: "/slice",
   },
+  {
+    name: "Every",
+    path: "/every",
+  },
 ];
 
 const Sidebar = () => {
