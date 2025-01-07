@@ -6,6 +6,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Filter from "./components/filter/Filter";
 import Slice from "./components/slice/Slice";
 import Every from "./components/every/Every";
+import Fill from "./components/fill/Fill";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/filter" element={<Filter />} />
         <Route path="/slice" element={<Slice />} />
         <Route path="/every" element={<Every />} />
+        <Route path="/fill" element={<Fill />} />
       </Routes>
     </div>
   );

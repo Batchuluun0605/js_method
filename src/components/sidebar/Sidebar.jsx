@@ -13,6 +13,10 @@ const sidebarData = [
     name: "Every",
     path: "/every",
   },
+  {
+    name: "Fill",
+    path: "/fill",
+  },
 ];
 
 const Sidebar = () => {
